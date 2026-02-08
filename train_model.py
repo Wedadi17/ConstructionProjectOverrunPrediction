@@ -1,5 +1,5 @@
 import os, joblib, pandas as pd
-git add requirements.txt.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, recall_score
 
