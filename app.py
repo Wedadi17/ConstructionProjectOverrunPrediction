@@ -22,7 +22,7 @@ def predict_overrun(X, threshold):
     return proba, pred
 
 
-st.title("📊 Construction Project Overrun Predictor Using Machine Learning Technics")
+st.title("📊 Construction Project Overrun Predictor")
 
 st.info(
     "This app predicts whether a project will overrun (Yes/No). "
