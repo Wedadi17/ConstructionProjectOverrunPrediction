@@ -1,5 +1,6 @@
 import joblib, pandas as pd, streamlit as st
 
+
 clf = joblib.load("artifacts/clf.joblib")
 cols = joblib.load("artifacts/cols.joblib")
 
